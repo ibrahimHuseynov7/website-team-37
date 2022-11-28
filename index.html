@@ -1,14 +1,86 @@
 <!DOCTYPE html>
 <!-- 
-    SITE 1101 Principles of Information Systems Fall 2022 
-    (c)2022 by Name Surname 
-    Submitted in partial fulfillment of the requirements of the course.
--->
+  SITE 1101 Principles of Information Systems Fall 2022 
+  (c)2022 by Name Surname 
+  Submitted in partial fulfillment of the requirements of the course.
+  -->
 <html>
-    <head>
-        <title>Homework 3: How websites work?</title>       
-    </head>
-    <body>
-        #Homework 3: How websites work?
-    </body>
+  <head>
+    <title>Homework 3: How websites work? </title> 
+    <link href='style.css' rel='stylesheet'>
+
+  </head>
+  <body>
+    <div id="c">
+    <div id="circle">
+      <div id="wave">
+
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+      setTimeout(() => {
+        const circle = document.getElementById('c');
+        circle.style.display='none';
+      }, 5000);
+      </script>
+    <header>
+    
+        <nav>
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="hourofcode.html">Hour Of Code</a>
+            <a class="nav-link" href="aboutus.html">About Us</a>
+        </nav>
+        <img id="header-logo" src="photos/logo.png">
+    </header>
+    <div id="article">
+        <div id="inner-article">
+        <h1 id='article-title' class='titlee' >Team 37- Principles of Information Systems FALL 2022</h1>
+        <h3 >Our new team name:<em>"From nothing to everything"</em></h3>
+        <article>
+            <p>We are planning to create our site from starting initial knowledge till creating beatiful and catchy websites for our viewers. Our main to apply and improve skills in HTML,CSS and Javascript. We have passion toe explore,create and demonstrate.Moreover, we will be strong with your feedback! <b> Really,from nothing to everything!<b></p>
+        </article>
+        </div>
+    </div>
+    <hr>
+    <div id="logo">
+        <div id="inner-logo">
+        <h3>Our new team logo</h3>
+        <img width="120" length="99" src="photos/logo.png">
+        <section class="choice">
+            <h3 id="choice">1.Do you like our new team name?</h6>
+            <br>
+            <label class="yes" for="yes">Yes</label>
+            <input type="radio" id="yes" name="choices" value="yes">
+            <br>
+            <label class="no" for="no">No</label>
+            <input id="no" name="choices" value="no" type="radio">
+        </section>
+        </div>
+    </div>
+    <hr id="hr">
+    <div id="members">
+        <div id="inner-members">
+        <h3><b>Our Group Members</b></h3>
+        <ol>
+            <li>Ibrahim Huseynov (Group Leader)</li>
+            <li>Maryam Jafarli (Participant)</li>
+            <li>Yusif Yusifov (Participant)</li>
+            <li>Yashar Gurbanov (Participant)</li>
+        </ol>
+    </div>
+    </div>
+  </body>
+  <footer>
+    <div id="footer-inner">
+    <a target="_blank" href="https://www.codecademy.com/profiles/yusifyusifov498"><img class="fb-logo" src="https://www.gravatar.com/avatar/4a301a1b8e00dfaae5e42e3156abe865?s=140&d=retro"></a>
+    <a target="_blank" href="https://www.codecademy.com/profiles/IbrahimHuseynov"><img class="fb-logo" src="https://www.gravatar.com/avatar/6fa7ca301568c50ba962ed408e30caad?s=140&d=retro"></a>
+    <a target="_blank" href="https://www.codecademy.com/profiles/MaryamJafarli"><img class="fb-logo" src="https://www.gravatar.com/avatar/d6e3592024234480f437dec73bdd31f1?s=140&d=retro"></a>
+    <a target="_blank" href="https://www.facebook.com"><img class="fb-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"></a>
+    <h4>Contacts:</h4>
+    <h5>yusifyusifov498@gmail.com</h5>
+    <h5>huseynovibrahim703@gmail.com</h5>
+    <h5>marajafarli@gmail.com</h5>
+    </div>
+  </footer>
 </html>

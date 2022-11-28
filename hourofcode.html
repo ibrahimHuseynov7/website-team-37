@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!-- 
+  SITE 1101 Principles of Information Systems Fall 2022 
+  (c)2022 by Name Surname 
+  Submitted in partial fulfillment of the requirements of the course.
+  -->
+<html>
+  <head>
+    <title>Homework 3: How websites work? </title>
+    <link href='style.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div id="c">
+      <div id="circle">
+        <div id="wave">
+  
+        </div>
+      </div>
+    </div>
+    <header>
+      <nav>
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="hourofcode.html">Hour Of Code</a>
+          <a class="nav-link" href="aboutus.html">About Us</a>
+      </nav>
+      <img id="header-logo" src="photos/logo.png">
+  </header>
+  <div id="hoc-intro">
+    <div id="hoc-intro-inner">
+    <h2> Our event with statistics</h2>
+    <article>
+      <p>Firstly, as members of Team 37, we had a very productive and interactive hour of code in the Baku Lyceum named after Academician Zarifa Aliyeva on the 2nd of November. Fortunately, all members of the team Ibrahim Huseynov (group leader), Yashar Gurbanov, Maryam Jafarli, and Yusif Yusifov participated in our hour of code and did their best to make this event more productive. Moreover, 19 students of Baku Lyceum named after Academician Zarifa Aliyeva actively participated in this event. It was a very great pleasure and experience to have a conversation with students who will decide their future field and university choices next year because all students are studying in 10th grade </p>
+    </article>
+    </div>
+  </div>
+  <hr>
+  <section class="section">
+    <div class="slider">
+      <div class="slide">
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <input type="radio" name="radio-btn" id="radio5">
+          <input type="radio" name="radio-btn" id="radio6">
+  
+          <div class="photo first">
+            <img src="photos/6.jpeg" alt="Photos">
+          </div>
+          
+          <div class="photo">
+            <img src="photos/2.jpeg" alt="Photos">
+          </div>
+  
+          <div class="photo">
+            <img src="photos/3.jpeg" alt="Photos">
+          </div>
+          
+          <div class="photo">
+            <img src="photos/4.jpeg" alt="Photos">
+          </div>
+          
+          <div class="photo">
+            <img src="photos/5.jpeg" alt="Photos">
+          </div>
+          
+          <div class="photo">
+            <img src="photos/1.jpeg" alt="Photos">
+          </div>
+  
+          <div class="nav-auto">
+            <div class="a-b1"></div>
+            <div class="a-b2"></div>
+            <div class="a-b3"></div>
+            <div class="a-b4"></div>
+            <div class="a-b5"></div>
+            <div class="a-b6"></div>
+          </div>
+      </div>
+  
+      <div class="nav-m">
+        <label for="radio1" class="a-btn"></label>
+        <label for="radio2" class="a-btn"></label>
+        <label for="radio3" class="a-btn"></label>
+        <label for="radio4" class="a-btn"></label>
+        <label for="radio5" class="a-btn"></label>
+        <label for="radio6" class="a-btn"></label>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript">
+      setTimeout(() => {
+      const circle = document.getElementById('c');
+      circle.style.display='none';
+      }, 5000);
+    var counter=1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked=true;
+      counter++;
+      if(counter>6){
+        counter=1;
+      }
+    },5000);
+    
+  </script>
+
+  <hr>
+   <div id="member-table">
+    <div id="ibrahim">
+      <h1>Ibrahim Huseynov <i>(Group Leader)</i></h1>
+      <ul>
+        <li>Field of study: <i>Computer Science</i></li>
+        <li>Expected graduation year: <i>2026</i></li>
+        <li>CRN: <i>10434</i></li>
+      </ul>
+    </div>
+    <div id="maryam">
+      <h1>Maryam Jafarli <i>(Participant)</i></h1>
+      <ul>
+        <li>Field of study: <i>Computer Science</i></li>
+        <li>Expected graduation year: <i>2026</i></li>
+        <li>CRN: <i>10435</i></li>
+      </ul>
+    </div>
+    <div id="yusif">
+      <h1>Yusif Yusifov <i>(Participant)</i></h1>
+      <ul>
+        <li>Field of study: <i>Computer Science</i></li>
+        <li>Expected graduation year: <i>2026</i></li>
+        <li>CRN: <i>10436</i></li>
+      </ul>
+    </div>
+    <div id="yashar">
+      <h1>Yashar Gurbanov <i>(Participant)</i></h1>
+      <ul>
+        <li>Field of study: <i>Computer Science</i></li>
+        <li>Expected graduation year: <i>2026</i></li>
+        <li>CRN: <i>10434</i></li>
+      </ul>
+    </div>
+  </div>
+    <hr>
+    <div id="table">
+      <table>
+        <thead>
+          <th>Team member</th>
+          <th>Contribution and report</th>
+          <th>Estimated percentage</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Yashar Gurbanov</td>
+            <td>Organized the meeting and
+              got agreement from school,
+              actively participated during the hour of code, took
+              photos and videos,
+              introduced ppt and helped to
+              organize playing Maze
+              puzzle, and finally wrote 200-
+              250 words for a report.
+            </td>
+            <td>25%</td>
+          </tr>
+          <tr>
+            <td>Maryam Jafarli</td>
+            <td>Actively participated during
+              an hour of code, took videos
+              and pictures, and presented
+              some of the ppt files. Finally,
+              wrote 300 words for a report.</td>
+            <td>22.5%</td>
+          </tr>
+          <tr>
+            <td>Yusif Yusifov</td>
+            <td>Wrote 250 words for a
+              report, actively participated
+              during an hour of code,
+              helped to solve technical
+              issues, introduced ppt files,
+              and helped to organize Maze
+              puzzle.</td>
+            <td>22.5%</td>
+          </tr>
+          <tr>
+            <td>Ibrahim Huseynov (Group Leader)</td>
+            <td>Generally try to maintain
+              stability in team, introduced
+              ppt files and helped to
+              organize Maze puzzle, wrote
+              250-270 words for report.</td>
+            <td>30%</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </body>
+  <footer>
+    <div id="footer-inner">
+    <a target="_blank" href="https://www.codecademy.com/profiles/yusifyusifov498"><img class="fb-logo" src="https://www.gravatar.com/avatar/4a301a1b8e00dfaae5e42e3156abe865?s=140&d=retro"></a>
+    <a target="_blank" href="https://www.codecademy.com/profiles/IbrahimHuseynov"><img class="fb-logo" src="https://www.gravatar.com/avatar/6fa7ca301568c50ba962ed408e30caad?s=140&d=retro"></a>
+    <a target="_blank" href="https://www.codecademy.com/profiles/MaryamJafarli"><img class="fb-logo" src="https://www.gravatar.com/avatar/d6e3592024234480f437dec73bdd31f1?s=140&d=retro"></a>
+    <a target="_blank" href="https://www.facebook.com"><img class="fb-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"></a>
+    <h4>Contacts:</h4>
+    <h5>yusifyusifov498@gmail.com</h5>
+    <h5>huseynovibrahim703@gmail.com</h5>
+    <h5>marajafarli@gmail.com</h5>
+    </div>
+  </footer>
+</html>
